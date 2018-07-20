@@ -18,20 +18,27 @@ module.exports = {
 ● Github link : https://github.com/amgrubb/BloomingLeaf`
     },
     {
-      title: 'Twelfth Night',
-      date: '1600 – 1601',
-      badges: ['comedy', 'love'],
+      title: 'Teaching Assistant @ U of T',
+      date: 'September/2017 - December/2017',
+      badges: ['Functional Programming', 'Scala', 'Organization'],
       contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
-`
+Holding office hour, evaluated students’ quizzes and tests for first year computer science course called Computational Thinking.`
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      date: '1595–1596, with a possible early draft written in 1591',
-      badges: ['tragedy', 'death', 'love'],
+      title: 'Software Developer @ CloudConstable Inc',
+      date: 'June/2017 - September/2017',
+      badges: ['Node.js', 'Watson API', 'Websocket'],
       contents: `
 In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
 `
-    }
+},
+{
+  title: 'Technical Support Engineering Inter @ SAP',
+  date: 'January/2015 - December/2015',
+  badges: ['SQL Anywhere', 'SQL Server', 'Oracle DB', 'Query Optimization', 'Customer Experience', 'Time Management'],
+  contents: `
+In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
+`
+}
   ]
 };
