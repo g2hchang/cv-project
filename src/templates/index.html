@@ -105,8 +105,7 @@
             <time datetime="{{ buildinfo.date }}" class="text-muted">Last update: {{ updated }}</time>
         </p>
         <p>
-            <span class="screen"><a href="Resume.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Download PDF version</a></span>
-            <span class="print">The online version is available at <a href="./blob/master/Resume.pdf"><i class="fa fa-github" aria-hidden="true"></i>https://sneas.github.io/cv-project</a></span>
+            <span class="screen"><a href="./blob/masterResume.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Download PDF version</a></span>
         </p>
         <h2>Biography</h2>
         <dl class="row">
@@ -124,12 +123,12 @@
             database system topics.
         </p>
 
-        <h2>Plays and work</h2>
-        {{#each plays}}
+        <h2>Work Experience</h2>
+        {{#each experience}}
         <div class="card mb-4">
             <div class="card-body">
                 <h3>{{ title }}</h3>
-                <p class="text-muted">{{ written }}</p>
+                <p class="text-muted">{{ date }}</p>
 
                 {{{markdown contents }}}
 
@@ -143,25 +142,12 @@
         {{/each}}
 
         <h2>Education</h2>
-        <p>King Edward VI Grammar School in Stratford-upon-Avon [1571 - 1578]</p>
+        <p>University of Toronto, Bachelors of Science in Computer Science<br/>
+        Focused studies in Web and Internet Technologies</p>
 
         <h2>Additional experience</h2>
 
-        {{#each experience}}
-            <div class="card mt-4">
-                <div class="card-body">
-                    <div class="mb-2"><strong>{{ header }}</strong></div>
 
-                    {{{markdown contents }}}
-
-                    <div>
-                        {{#each skills }}
-                        <span class="badge badge-primary">{{ this }}</span>
-                        {{/each}}
-                    </div>
-                </div>
-            </div>
-        {{/each}}
     </div>
 </body>
 </html>
