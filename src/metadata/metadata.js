@@ -10,7 +10,7 @@ module.exports = {
       date: 'August/2017 - December/2017 ',
       badges: ['HTML', 'CSS', 'Javascript', 'jQuery', 'Bootstrap', 'Backbone.js'],
       contents: '● Working with a supervisor in Software Engineering group at '+
-      'University of Toronto to develop a web­based tool for modeling'+
+      'University of Toronto to develop a web­based tool for modeling '+
       'using jQuery, BackBone.js, and SVG.js.\n ● Performed User Interface analysis.\n'+
       '● Developed test suits.\n'+
       '● Portfolio link : http://www.cs.utoronto.ca/~chang/dev/blooming/ \n'+
