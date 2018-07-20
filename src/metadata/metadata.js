@@ -11,11 +11,10 @@ module.exports = {
       badges: ['HTML', 'CSS', 'Javascript', 'jQuery', 'Bootstrap', 'Backbone.js'],
       contents: `● Working with a supervisor in Software Engineering group at
       University of Toronto to develop a web­based tool for modeling
-      using jQuery, BackBone.js, and SVG.js\n
-                ● Performed User Interface analysis.\n
-                ● Developed test suits.\n
-● Portfolio link : http://www.cs.utoronto.ca/~chang/dev/blooming/ \n
-● Github link : https://github.com/amgrubb/BloomingLeaf`
+      using jQuery, BackBone.js, and SVG.js.\n ● Performed User Interface analysis.\n
+      ● Developed test suits.\n
+      ● Portfolio link : http://www.cs.utoronto.ca/~chang/dev/blooming/ \n
+      ● Github link : https://github.com/amgrubb/BloomingLeaf`
     },
     {
       title: 'Teaching Assistant @ U of T',
